@@ -1,0 +1,74 @@
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.body{
+    background-color: aliceblue;
+}
+
+.game-board {
+    background-color: darkcyan;
+    width: 100vmin;
+    height: 100vmin;
+    display: grid;
+    margin: 0%;
+    padding: 0%;
+    grid-template-rows: repeat(22, 1fr);
+    grid-template-columns: repeat(22, 1fr);
+}
+
+.flex-container {
+    background-color: aliceblue;
+    min-height: 100vmin;
+    width: 100%;
+    display: flex;
+   
+}
+
+.header{
+    color: black;
+    width: 20vmin;
+    height: 20vmin;
+    justify-content: center;
+}
+
+
+ .top{
+    background-color: mediumspringgreen;
+    height: 15vmin;
+    width: 15vmin;
+    padding: 50px;
+    align-self: right;
+    padding: 50%;
+
+} 
+
+
+.button{
+    width: 30vmin;
+    height: 10vmin;
+    text-transform: uppercase;
+    background-color: aliceblue;
+    color: black;
+    padding: 10px 20px;
+    letter-spacing: 2px;
+
+}
+
+.bottom{
+    background-color: chartreuse;
+    height: 10vmin;
+    width: 10vmin;
+}
+
+.snake {
+    background-color: black;
+    border-radius: 2vh;
+}
+
+.food {
+    background-color:mediumspringgreen;
+    border: .20vmin solid blue;
+    border-radius: 50vh;
+
+}
